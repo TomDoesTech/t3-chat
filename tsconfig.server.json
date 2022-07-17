@@ -1,0 +1,19 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "module": "commonjs",
+        "outDir": "dist",
+        "target": "ES2019",
+        "lib": ["ES2019", "DOM"],
+        "isolatedModules": false,
+        "noEmit": false,
+        "esModuleInterop": true
+    },
+    "include": [
+        "next-env.d.ts",
+        "next-auth.d.ts",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.js"
+      ],
+}
